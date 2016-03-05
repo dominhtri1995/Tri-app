@@ -88,9 +88,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(this, AboutActivity.class);
                 startActivity(intent);
                 return true;
-                
-                
-                
             case R.id.action_web:
                 //Go to the website
                 Intent webIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(webUrl));
