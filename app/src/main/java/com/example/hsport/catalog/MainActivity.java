@@ -95,11 +95,6 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(webIntent);
                 }
                 return true;
-            case R.id.action_cart:
-                Snackbar.make(coordinatorLayout,
-                        "You selected the Shopping Cart", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-                return true;
             case MENU_ITEM_LOGOUT:
                 Snackbar.make(coordinatorLayout,
                         "You selected Logout", Snackbar.LENGTH_LONG)
